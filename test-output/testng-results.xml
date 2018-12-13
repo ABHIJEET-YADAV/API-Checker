@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36" started-at="2018-12-13T08:22:52Z" finished-at="2018-12-13T08:22:52Z">
+  <suite name="Default suite" duration-ms="52" started-at="2018-12-13T08:28:32Z" finished-at="2018-12-13T08:28:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36" started-at="2018-12-13T08:22:52Z" finished-at="2018-12-13T08:22:52Z">
+    <test name="Default test" duration-ms="52" started-at="2018-12-13T08:28:32Z" finished-at="2018-12-13T08:28:32Z">
       <class name="com.qa.tests.GetAPITest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@6ea12c19]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-13T13:52:52Z" finished-at="2018-12-13T13:52:52Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@6ea12c19]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-13T13:58:32Z" finished-at="2018-12-13T13:58:32Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="getAPITestWithoutHeaders()[pri:0, instance:com.qa.tests.GetAPITest@6ea12c19]" name="getAPITestWithoutHeaders" duration-ms="2" started-at="2018-12-13T13:52:52Z" finished-at="2018-12-13T13:52:52Z">
+        <test-method status="SKIP" signature="getAPITestWithoutHeaders()[pri:0, instance:com.qa.tests.GetAPITest@6ea12c19]" name="getAPITestWithoutHeaders" duration-ms="2" started-at="2018-12-13T13:58:32Z" finished-at="2018-12-13T13:58:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPITestWithoutHeaders -->

@@ -60,7 +60,5 @@ public class GetAPITest extends Base{
 		}	
 		System.out.println("Headers Array-->"+allHeaders);
 		
-		
-		
 	}
 }
