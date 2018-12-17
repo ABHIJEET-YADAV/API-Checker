@@ -5,9 +5,9 @@ import org.json.JSONObject;
 
 public class TestUtil {
 	
-	
 	public static String getValueByJPath(JSONObject responsejson, String jpath){
 		Object obj = responsejson;
+		
 		for(String s : jpath.split("/")) 
 			if(!s.isEmpty()) 
 				if(!(s.contains("[") || s.contains("]")))
@@ -17,6 +17,4 @@ public class TestUtil {
 		return obj.toString();
 	}
 	
-	
-
 }
